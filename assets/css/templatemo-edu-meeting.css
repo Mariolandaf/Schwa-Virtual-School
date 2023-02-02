@@ -1815,6 +1815,10 @@ section.our-team ul.nacc li p {
   margin: 0;
 }
 
+.esconder {
+  visibility: visible;
+}
+
 @media (max-width: 992px) {
   section.our-team ul.nacc li .left-content span a {
     margin-right: 15px;
@@ -1850,6 +1854,9 @@ section.our-team ul.nacc li p {
   section.our-team .naccs .menu div h4,
   section.our-team .naccs .menu div span {
     display: none;
+  }
+  .esconder {
+    visibility: hidden;
   }
 }
 
