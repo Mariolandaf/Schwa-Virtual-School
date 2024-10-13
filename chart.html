@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Speaking Chart</title>
+
+    <link rel="shortcut icon" href="assets/images/Schwa-icono.ico" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/chart.css">
+<!--
+
+TemplateMo 569 Edu Meeting
+
+https://templatemo.com/tm-569-edu-meeting
+
+-->
+  </head>
+
+<body>
+
+
+  <!-- Sub Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p>Síguenos en redes sociales como <em>Schwa_Virtual_School</em></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="https://www.facebook.com/profile.php?id=100090005148814" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/schwa_virtual_school/?next=%2F" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <div class="container">
+      <div class="row">
+          <div >
+              <nav class="main-nav">
+                  <!-- ***** Logo Start ***** -->
+                  <a href="index.html" class="logo">
+                      <img src="assets/images/Schwa-logo.svg" alt="Schwa">
+                  </a>
+                  <!-- ***** Logo End ***** -->
+                  <!-- ***** Menu Start ***** -->
+                  <ul class="nav">
+                      <li><a href="index.html">Inicio</a></li>
+                      <li><a href="index.html#contact">Inscribirse</a></li>
+                      <li class="has-sub">
+                          <a href="javascript:void(0)">Cursos</a>
+                          <ul class="sub-menu">
+                              <li><a href="cursoingles.html">Inglés</a></li>
+                              <li><a href="cursoscratch.html">Videojuegos</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="meetings.html">Calendario</a></li> 
+                      <li><a href="#" class="active">Speaking Chart</a></li> 
+                  </ul>        
+                  <a class='menu-trigger'>
+                      <span>Menú</span>
+                  </a>
+                  <!-- ***** Menu End ***** -->
+              </nav>
+          </div>
+      </div>
+  </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <section class="heading-page header-text" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Speaking Chart</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--<div class="containerc">
+    <div class="calculator">
+      <form>
+
+        <div class="display">
+          <input type="text" name="display">
+        </div>
+
+        <div>
+          <input type="image" src="assets/images/1.png" alt="Cat" name="1" onclick="display.src = 'assets/images/1.png' ">
+          <input type="button" value="DC" onclick="display.value = display.value.toString().slice(0,-1)">
+          <input type="submit" disabled value="." onclick="display.value += '.' ">
+          <input type="button" value="/" onclick="display.value += '/' ">
+        </div>
+
+        <div>
+          <input type="button" value="7" onclick="display.value += '7' ">
+          <input type="button" value="8" onclick="display.value += '8' ">
+          <input type="button" value="9" onclick="display.value += '9' ">
+          <input type="button" value="*" onclick="display.value += '*' ">
+        </div>
+
+        <div>
+          <input type="button" value="4" onclick="display.value += '4' ">
+          <input type="button" value="5" onclick="display.value += '5' ">
+          <input type="button" value="6" onclick="display.value += '6' ">
+          <input type="button" value="-" onclick="display.value += '-' ">
+        </div>
+
+        <div>
+          <input type="button" value="1" onclick="display.value += '1' ">
+          <input type="button" value="2" onclick="display.value += '2' ">
+          <input type="button" value="3" onclick="display.value += '3' ">
+          <input type="button" value="+" onclick="display.value += '+' ">
+        </div>
+
+        <div>
+          <input type="button" value="Borrar" onclick="display.value = '' ">
+          <input type="button" value="0" onclick="display.value += '0' ">
+          <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal">
+        </div>
+
+      </form>
+    </div>
+  </div>-->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+<div class="calculator-grid">
+  <div class="output">
+    <div data-operand id="operand" class="operand"></div>
+  </div>
+
+  <button id="00" data-all-clear onClick="window.location.reload();"><img src="assets/images/00.svg" alt="clear"></button>
+  <button id="0" data-image><img src="assets/images/0.svg" alt="delete"></button>
+  <div></div>
+  <button id="1" data-image><img src="assets/images/1.svg" alt="1"></button>
+  <button id="2" data-image><img src="assets/images/2.svg" alt="2"></button>
+  <button id="3" data-image><img src="assets/images/3.svg" alt="3"></button>
+  <button id="4" data-image><img src="assets/images/4.svg" alt="4"></button>
+  <button id="5" data-image><img src="assets/images/5.svg" alt="5"></button>
+  <button id="6" data-image><img src="assets/images/6.svg" alt="6"></button>
+  <button id="7" data-image><img src="assets/images/7.svg" alt="7"></button>
+  <button id="8" data-image><img src="assets/images/8.svg" alt="8"></button>
+  <button id="9" data-image><img src="assets/images/9.svg" alt="9"></button>
+  <button id="10" data-image><img src="assets/images/10.svg" alt="10"></button>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <button id="11" data-image><img src="assets/images/11.svg" alt="11"></button>
+  <button id="12" data-image><img src="assets/images/12.svg" alt="12"></button>
+  <button id="13" data-image><img src="assets/images/13.svg" alt="13"></button>
+  <button id="14" data-image><img src="assets/images/14.svg" alt="14"></button>
+  <button id="15" data-image><img src="assets/images/15.svg" alt="15"></button>
+  <button id="16" data-image><img src="assets/images/16.svg" alt="16"></button>
+  <button id="17" data-image><img src="assets/images/17.svg" alt="17"></button>
+  <button id="18" data-image><img src="assets/images/18.svg" alt="18"></button>
+  <button id="19" data-image><img src="assets/images/19.svg" alt="19"></button>
+  <button id="20" data-image><img src="assets/images/20.svg" alt="20"></button>
+  <div></div>
+  <div></div>
+  <div></div>
+  <button id="21" data-image><img src="assets/images/21.svg" alt="21"></button>
+  <button id="22" data-image><img src="assets/images/22.svg" alt="22"></button>
+  <button id="23" data-image><img src="assets/images/23.svg" alt="23"></button>
+  <button id="24" data-image><img src="assets/images/24.svg" alt="24"></button>
+  <button id="25" data-image><img src="assets/images/25.svg" alt="25"></button>
+  <button id="26" data-image><img src="assets/images/26.svg" alt="26"></button>
+  <button id="27" data-image><img src="assets/images/27.svg" alt="27"></button>
+  <button id="28" data-image><img src="assets/images/28.svg" alt="28"></button>
+  <button id="29" data-image><img src="assets/images/29.svg" alt="29"></button>
+  <button id="30" data-image><img src="assets/images/30.svg" alt="30"></button>
+  <button id="31" data-image><img src="assets/images/31.svg" alt="31"></button>
+  <button id="32" data-image><img src="assets/images/32.svg" alt="32"></button>
+  <button id="33" data-image><img src="assets/images/33.svg" alt="33"></button>
+  <button id="34" data-image><img src="assets/images/34.svg" alt="34"></button>
+  <button id="35" data-image><img src="assets/images/35.svg" alt="35"></button>
+  <button id="36" data-image><img src="assets/images/36.svg" alt="36"></button>
+  <button id="37" data-image><img src="assets/images/37.svg" alt="37"></button>
+  <button id="38" data-image><img src="assets/images/38.svg" alt="38"></button>
+  <button id="39" data-image><img src="assets/images/39.svg" alt="39"></button>
+  <button id="40" data-image><img src="assets/images/40.svg" alt="40"></button>
+  <button id="41" data-image><img src="assets/images/41.svg" alt="41"></button>
+  <button id="42" data-image><img src="assets/images/42.svg" alt="42"></button>
+  <button id="43" data-image><img src="assets/images/43.svg" alt="43"></button>
+  <button id="44" data-image><img src="assets/images/44.svg" alt="44"></button>
+  <button id="45" data-image><img src="assets/images/45.svg" alt="45"></button>
+  <button id="46" data-image><img src="assets/images/46.svg" alt="46"></button>
+  <button id="47" data-image><img src="assets/images/47.svg" alt="47"></button>
+  <button id="48" data-image><img src="assets/images/48.svg" alt="48"></button>
+  <button id="49" data-image><img src="assets/images/49.svg" alt="49"></button>
+  <button id="50" data-image><img src="assets/images/50.svg" alt="50"></button>
+  <button id="51" data-image><img src="assets/images/51.svg" alt="51"></button>
+  <button id="52" data-image><img src="assets/images/52.svg" alt="52"></button>
+  <button id="53" data-image><img src="assets/images/53.svg" alt="53"></button>
+  <button id="54" data-image><img src="assets/images/54.svg" alt="54"></button>
+  <button id="55" data-image><img src="assets/images/55.svg" alt="55"></button>
+</div>
+
+
+  <div class="footer">
+    <p>Copyright © 2022 Schwa School, Todos los Derechos Reservados.
+        <br><a href="avisopriv.html">Aviso de privacidad</a></p>
+  </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+
+  </body>
+
+</html>
